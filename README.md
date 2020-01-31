@@ -70,6 +70,17 @@ Information about Data Structure and Algorithms
 
 
 **Binary Heap**
+- Binary Heap is a Binary Tree with some special properties and these properties are
+ - Heap property
+  - Value of a any give node must be <= value of its children (Min-Heap)
+  - Value of a any given node must be >= value of its children (Max-Heap)
+ - Complete Tree
+   - All levels are completely filled except possibly the last level and the last level has all keys as left as possible 
+   - This makes Binary Heap ideal candidate for Array Implementation 
+ - All the properties of Binary Tree will apply too
 
-
+   
+   
+   
+   
 **Trie** 
