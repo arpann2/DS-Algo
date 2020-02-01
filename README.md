@@ -1,64 +1,56 @@
-<h1>DS-Algo
+# DS-Algo
 Information about Data Structure and Algorithms 
 > When recursive call is made or recursive method is used, underlying data structure used is Stack
 
-**Data Structures**
+## Data Structures
 
-1) Primitive data structures
-	Int, Float, Boolean, Real etc
+1. Primitive data structures
+ Int, Float, Boolean, Real etc
 
-2) Non-primitive data structures 
+2. Non-primitive data structures 
 a. physical data structures
-		1. array
-		2. linked list
+   1. array
+   2. linked list
 b. logical data structures 
-		1. stack
-		2. queue
-		3. binary tree
-		4. binary search tree
-		5. hash table
+   1. stack
+   2. queue
+   3. binary tree
+   4. binary search tree
+   5. hash table
 
 
-**Physical Data Structures**
-1) Array 
-	1. one dimentional array
-	2. two dimentional array
-	3. three dimentional array
+## Physical Data Structures
+**1. Array** 
+   1. one dimentional array
+   2. two dimentional array
+   3. three dimentional array
 
 - java supports nth dimentional array but compiler supports 255 dimentional array
 
-2) LinkedList
-	1. single linkedList
-	2. circular single linkedList	eg. loop, last node is pointing to first node
-	3. double linkedList		eg. forward and reverse button on mp3 player	
-	4. double circular linkedList	eg. 'alt+tab' on windows
+**2. LinkedList**
+   1. single linkedList
+   2. circular single linkedList	eg. loop, last node is pointing to first node
+   3. double linkedList		        eg. forward and reverse button on mp3 player	
+   4. double circular linkedList	eg. 'alt+tab' on windows
 
 --------------------------
-Logical Data Structures
+## Logical Data Structures
 
-3) Stack
-can be implemented either by arrays or linkedList
-last in, first out method (LIFO)
+**3. Stack**
+- can be implemented either by arrays or linkedList
+- last in, first out method (LIFO)
 
-4) Queue
-can be implemented either by arrays or linkedList
-array
-	linear queue
-	circular queue
-linkedList
-	linear queue
-	circular queue
-
-
-**Queue**
- 1. Arrays
-- Linear queue 
-- Circular queue 
- 2. LinkedList 
-- Linear queue 
+**4. Queue**
+- can be implemented either by arrays or linkedList
+1. Array
+   - linear queue
+   - circular queue
+2. LinkedList
+   - linear queue
+   - circular queue
 
 
-**Tree**
+**5. Tree**
 - Root: root is node with no parents
 - Edge: edge is link from parent to child
 - Leaf: leaf is a node with no children 
@@ -69,7 +61,7 @@ linkedList
 - Depth of tree: same as depth of root node 
 
 
-**Binary Tree**
+**5. Binary Tree**
 - Two ways to create binary tree:
   1. Array
   2. LinkedList
@@ -93,7 +85,7 @@ linkedList
   6. Delete tree
 
 
- **Binary Search Tree** 
+ **6. Binary Search Tree** 
 - Binary tree is a DNA for almost all types of trees in Data Structure 
 - Binary tree is implemented using LinkedList 
 - Binary search tree is Binary tree with following properties:
@@ -101,7 +93,7 @@ linkedList
   - Right sub tree of node has a key greater than to it's parents node key
 
 
-**AVL Tree**
+**7. AVL Tree**
 - AVL stands for Adelson-Velskii and Landis, they are the inventors of AVL tree 
 - AVL is also called 'Balanced Binary Search Tree', AVL tree = BST
 - The height of immediate subtree of any node differs by at most one (also called balance factor)
@@ -116,7 +108,7 @@ linkedList
 - RL is mirror image of LR condition
 
 
-**Binary Heap**
+**8. Binary Heap**
 
 - Binary Heap is a Binary Tree with some special properties and these properties are
   - Heap property: (1) Value of a any give node must be <= value of its children (Min-Heap) (2) Value of a any given node must be >= value of its children (Max-Heap)
@@ -125,7 +117,7 @@ linkedList
 
 
 
-**Trie** 
+**9. Trie** 
 - Trie is search tree which is typically used to store/search strings in space/time efficient way 
 - In auto-complete functionality normally trie data structure is used 
 - Spell checkers functionally is also used trie data structure, the app predicts and next word based on next available char node in trie 
