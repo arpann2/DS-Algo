@@ -1,6 +1,53 @@
-# DS-Algo
+<h1DS-Algo<h1>
 Information about Data Structure and Algorithms 
 > When recursive call is made or recursive method is used, underlying data structure used is Stack
+
+**Data Structures**
+
+1) Primitive data structures
+	Int, Float, Boolean, Real etc
+
+2) Non-primitive data structures 
+a. physical data structures
+		1. array
+		2. linked list
+b. logical data structures 
+		1. stack
+		2. queue
+		3. binary tree
+		4. binary search tree
+		5. hash table
+
+
+**Physical Data Structures**
+1) Array 
+	1. one dimentional array
+	2. two dimentional array
+	3. three dimentional array
+
+- java supports nth dimentional array but compiler supports 255 dimentional array
+
+2) LinkedList
+	1. single linkedList
+	2. circular single linkedList	eg. loop, last node is pointing to first node
+	3. double linkedList		eg. forward and reverse button on mp3 player	
+	4. double circular linkedList	eg. 'alt+tab' on windows
+
+--------------------------
+Logical Data Structures
+
+3) Stack
+can be implemented either by arrays or linkedList
+last in, first out method (LIFO)
+
+4) Queue
+can be implemented either by arrays or linkedList
+array
+	linear queue
+	circular queue
+linkedList
+	linear queue
+	circular queue
 
 
 **Queue**
