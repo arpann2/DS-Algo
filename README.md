@@ -1,4 +1,4 @@
-<h1DS-Algo<h1>
+<h1>DS-Algo
 Information about Data Structure and Algorithms 
 > When recursive call is made or recursive method is used, underlying data structure used is Stack
 
