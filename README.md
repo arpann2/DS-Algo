@@ -4,28 +4,30 @@ Information about Data Structure and Algorithms
 
 ## Data Structures
 
-1. Primitive data structures
- Int, Float, Boolean, Real etc
+###### Primitive data structures ######
+Int, Float, Boolean, Real etc
 
-2. Non-primitive data structures 
-a. physical data structures
+###### Non-primitive data structures ######
+A. physical data structures
    1. array
    2. linked list
-b. logical data structures 
+B. logical data structures 
    1. stack
    2. queue
    3. binary tree
    4. binary search tree
    5. hash table
 
+--------------------------
 
 ## Physical Data Structures
-**1. Array** 
-   1. one dimentional array
-   2. two dimentional array
-   3. three dimentional array
 
-- java supports nth dimentional array but compiler supports 255 dimentional array
+**1. Array** 
+   1. One dimentional array
+   2. Two dimentional array
+   3. Three dimentional array
+
+- Java supports nth dimentional array but compiler supports 255 dimentional array
 
 **2. LinkedList**
    1. single linkedList
@@ -33,7 +35,7 @@ b. logical data structures
    3. double linkedList		        eg. forward and reverse button on mp3 player	
    4. double circular linkedList	eg. 'alt+tab' on windows
 
---------------------------
+
 ## Logical Data Structures
 
 **3. Stack**
@@ -110,10 +112,14 @@ b. logical data structures
 
 **8. Binary Heap**
 
-- Binary Heap is a Binary Tree with some special properties and these properties are
-  - Heap property: (1) Value of a any give node must be <= value of its children (Min-Heap) (2) Value of a any given node must be >= value of its children (Max-Heap)
-  - Complete Tree: (1) All levels are completely filled except possibly the last level and the last level has all keys as left as possible (2) This makes Binary Heap ideal candidate for Array Implementation   
-  - All the properties of Binary Tree will apply too
+- Binary Heap is a Binary Tree with some special properties and these properties are:
+ Heap property: 
+ (1) Value of a any give node must be <= value of its children (Min-Heap) 
+ (2) Value of a any given node must be >= value of its children (Max-Heap)
+ Complete Tree: 
+ (1) All levels are completely filled except possibly the last level and the last level has all keys as left as possible 
+ (2) This makes Binary Heap ideal candidate for Array Implementation   
+ All the properties of Binary Tree will apply too
 
 
 
